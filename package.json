@@ -1,0 +1,26 @@
+{
+  "name": "enablexinboundclient",
+  "version": "1.0.0",
+  "description": "Enablex Inbound Client Example",
+  "main": "client-inbound.js",
+  "author": "amit.s",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "btoa": "^1.2.1",
+    "dotenv": "^8.2.0",
+    "events": "^3.1.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "ngrok": "^3.2.7",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
