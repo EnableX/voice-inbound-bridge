@@ -218,7 +218,7 @@ function voiceEventHandler(voiceEvent) {
 		const eventMsg = `[${voice_id}] Call is connected`;
 		logger.info(eventMsg);
 		sseMsg.push(eventMsg);
-	        setTimeout(()=>{bridgeCall(voice_id, '12028528186' , '919972972207', () => {})},1000);
+	        setTimeout(()=>{bridgeCall(voice_id, process.env.FROM , process.env.BRIDGETO , () => {})},1000);
 	}  else if (voiceEvent.state && voiceEvent.state === 'bridged') {
                 console.log("Inbound Call Is Bridged ")
                 const eventMsg = `[${voice_id}] Call is Bridged`;
