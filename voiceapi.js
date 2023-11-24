@@ -8,7 +8,7 @@ const logger = require('./logger');
 
 // EnableX server REST API call default options
 const httpOptions = {
-  host: 'api-qa.enablex.io',
+  host: 'api.enablex.io',
   port: 443,
   headers: {
     Authorization: `Basic ${btoa(`${process.env.ENABLEX_APP_ID}:${process.env.ENABLEX_APP_KEY}`)}`,
